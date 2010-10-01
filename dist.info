@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+-- status: builds but not sure if its complete
+
+name = "pluto"
+version ="2.4"
+
+desc = "Heavy duty persistence for Lua"
+author = "Ben Sunshine-Hill"
+license = "Public domain"
+url = "http://lua-users.org/wiki/PlutoLibrary"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1"
+}
