@@ -7,6 +7,7 @@
 project ( pluto C )
 cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
+include ( lua )
 
 install_lua_module ( pluto pluto.c pdep.c lzio.c )
 install_data ( README THANKS CHANGELOG )
