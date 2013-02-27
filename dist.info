@@ -1,0 +1,31 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Ben Sunshine-Hill"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Heavy duty persistence for Lua"
+version = "2.4"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/pluto.so]],
+}
+,
+Data = {
+[[share/pluto/README]],
+[[share/pluto/THANKS]],
+[[share/pluto/CHANGELOG]],
+}
+,
+Test = {
+[[share/pluto/test/pptest.lua]],
+[[share/pluto/test/puptest.lua]],
+}
+,
+}
+
+license = "Public domain"
+name = "pluto"
+url = "http://lua-users.org/wiki/PlutoLibrary"
